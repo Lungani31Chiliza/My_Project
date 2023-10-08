@@ -1,0 +1,168 @@
+{
+  "intents" : [{
+      "tag" : "Greetings",
+      "patterns" : [
+          "Hello",
+          "hey",
+          "Hi", 
+          "whatsupp",
+          "Hola",
+          "Sawubona"
+      ],
+      "responses" : [
+          "Hey, How can I assist you?",
+        "Hey' How can I help you?",
+        "Yebo, Siyakwamukela. Ngingakusiza ngani?"
+      ]
+  },
+  {
+          "tag": "university_info",
+          "patterns": [
+            "Tell me about the University of Zululand.",
+            "What is the history of the University of Zululand?",
+            "Give me an overview of the university."
+          ],
+          "responses": [
+            "The University of Zululand, also known as UNIZULU, is a South African university located in KwaZulu-Natal. It has a rich history and offers a wide range of academic programs.The main university office can be reached at [Phone Number: +27 35 902 6000] or via email at [Email: info@unizulu.ac.za]. Feel free to reach out if you have any general inquiries or need assistance."
+          ]
+  },
+  {
+      "tag" : "University Rules",
+      "patterns" : [
+        "What are the general rules and policies of the university?", 
+      "How can I access the university's code of conduct?", 
+      "What is the policy on academic integrity and plagiarism at the university?"
+      ],
+      "responses" :[ 
+          "The university has various rules and policies covering academic conduct, student behavior, campus facilities usage, and more. Familiarize yourself with the Student Handbook provided during orientation for a comprehensive guide. You can access the university's code of conduct through the official university website or by referring to the Student Handbook. It provides detailed information about the expectations and behavior standards for students."
+       ]
+  
+  },
+
+  {
+
+      "tag" : "Registration",
+      "patterns" : [
+         "How do I register for classes?",
+         "Which link must be used for online registration?",
+         "What is need for registration in University of Zululand?",  
+         "What is my student ID number, and how do I obtain it?"
+          ],
+      "responses" : [
+          "To register for classes and choose your courses, log in to the university's student portal during the registration period. Follow the provided instructions and select the courses you wish to enroll in for the semester. You need documents: Identity Document(certified); Confirmation of postal address (e.g., municipality or medical aid or statement from local iNkosi); Certified copy of final statement of results or equivalent; Certified copy of National Senior Certificate or equivalent .Proof of residence (e.g., municipality statement).",
+          "Admission Requirements:APS score of 21 of bachelor's degree. APS score of 17 for Diploma. link(https://jasper.unizulu.ac.za/pls/prodi41/w99pkg.mi_login)",
+          "Yes, student ID cards are issued to all students. You can obtain yours by visiting the student affairs office with a valid form of identification. They will provide you with further instructions."
+
+          ]
+  },
+  {
+      "tag" : "Housing",
+      "patterns" : [
+          "How do I apply for university housing?",
+          "Tell me about university housing?",
+          "What are the housing options available for first-year students?",
+          "Is on-campus housing guaranteed for first-year students?",
+          "What if I want to live off-campus? How can I find off-campus housing?",
+          "Are there housing options for students with specific needs, such as disabilities or medical conditions?" 
+      ],
+      "responses" : [
+          "To apply for university housing, you will typically need to complete a housing application through the university's housing portal. The application process details, including deadlines and requirements, will be provided during orientation.",
+          "Yes, the university strives to accommodate students with specific needs, including those with disabilities or medical conditions. Please communicate your requirements to the housing office during the application process, and they will work to provide suitable housing options.",
+          "The University of Zululand offers various housing options for first-year students, including residence halls, apartments, and shared accommodations. The availability of these options may vary, and specific details will be provided during the housing application process.",
+          "On-campus housing availability can be competitive, and while the university strives to accommodate as many students as possible, it may not always be guaranteed for all first-year students. It's important to apply for housing as early as possible to increase your chances.",
+          "If you prefer off-campus housing, you can explore options in the surrounding area. The university may provide resources or recommendations for finding off-campus housing, and you can also conduct independent searches online or through local real estate agencies.",
+          "UNIZULU typically offers on-campus accommodation options for students. These residences are located within the university campus or in close proximity, making it convenient for students to access academic facilities. Students interested in on-campus housing typically need to submit a housing application through the university's housing office, Complete necessary forms and provide required documentation, Adhere to application deadlines. "
+    ]
+  },
+      {
+          "tag": "Academic issues",
+          "patterns":[
+              "What should I do if I'm struggling academically or need additional help with a subject?",
+              "What is the academic policy for attendance and tardiness in classes?", 
+              "How can I stay organized and manage my time effectively to succeed academically?",
+              "How do I access my class schedule and course syllabus?",
+              "How can I contact my professors or lecturers for academic assistance?",
+              "Can I change my major or academic program after starting the semester?" 
+
+
+
+           ],
+          "responses":[
+              "If you're struggling academically or need extra help with a subject, consider reaching out to your professors, joining study groups, utilizing tutoring services, or attending academic workshops. Additionally, you can seek guidance from academic advisors to explore strategies for improvement.",
+              "Yes, you can usually change your major or academic program, but it's important to follow the university's specific process for changing your program. Reach out to the academic advising office to discuss the steps and requirements for making this change.",
+              "To stay organized and manage your time effectively, consider creating a study schedule, using a planner or digital calendar, breaking tasks into manageable chunks, prioritizing assignments, and setting aside dedicated study time. It's also helpful to develop good study habits and seek support when needed.",
+              "You can access your class schedule and course syllabus through the university's student portal or learning management system. Your class schedule will outline the dates, times, and locations of your classes, while the course syllabus will provide an overview of the course, assignments, and expectations.",
+              "You can usually find your professors' contact information, such as their email addresses or office hours, on the course syllabus or the university's website. Don't hesitate to reach out to them via email or visit them during their office hours to discuss any academic concerns or seek assistance.",
+              "If you believe a grade you received is unfair or inaccurate, you can typically follow the university's grade appeal process. This usually involves submitting a formal appeal to the appropriate department or office, providing evidence to support your case."
+          ]
+      },
+  {
+      "tag" : "Recreation",
+      "patterns" : [
+          "What recreational facilities are available on campus?",
+      "How can I access and use the campus gym or fitness center?",
+      "Are there organized sports teams or clubs that I can join?"
+     
+          ],
+      "responses" : [
+          "The University of Zululand offers various recreational facilities, including sports complexes, gyms, swimming pools, sports fields, and indoor game rooms. To access the campus gym or fitness center, you'll typically need to sign up for a membership or use your student ID card for entry.", 
+        "Yes, the university has various sports teams and clubs that you can join based on your interests. These may include soccer, rugby, basketball, netball, athletics, and more. Information about tryouts, practices, and club meetings will be available during orientation.",
+        "Absolutely! The university often hosts intramural sports leagues where students can form teams and compete against each other in various sports. Keep an eye out for announcements regarding intramural sports registration and participation."
+   ]
+ },
+  {
+      "tag" : "Security",
+      "patterns" : [
+          "How safe is the campus and its surroundings?",
+          "Tell me about campus security at the University of Zululand.",
+          "What is the role of the Public Safety Department (PSD) on campus?",
+          "How does the university ensure the safety of its campus community?"
+          ],
+      "responses" : [
+          "The University of Zululand prioritizes the safety and security of its students and campus community. We have security personnel, campus patrols, and security measures in place to ensure a safe environment. Additionally, the campus is in close coordination with local law enforcement agencies to enhance security.", 
+          "The University of Zululand's Public Safety Department (PSD) is responsible for ensuring the safety and security of the campus community. Their mission is to protect lives, property, and the university's reputation, creating an environment conducive to effective teaching, learning, research, and community work.",
+          "The safety and security of the campus community are paramount to the university's mission, ensuring that quality teaching, learning, research, and community engagement can thrive.",
+          "The department employs proactive policing techniques, crime prevention tactics, CCTV surveillance, physical barriers, property marking, good lighting, and a crime intelligence system to anticipate and prevent potential problems. They enforce the carrying of ID cards by staff and students.",
+          "In cases of criminal activity, the PSD collaborates with the South African Police Service and relevant government agencies for the arrest of offenders and preparation of prosecution documentation."
+          ]
+  },
+  {
+      "tag": "financial_aid",
+      "patterns": [
+        "How can students inquire about financial aid at the University of Zululand?",
+        "Tell me about the Financial Aid Office's contact information.",
+        "What should students know about financial aid-related queries?"
+       ],
+      "responses": [
+        "Students with financial aid queries can contact the Financial Aid Office. They handle NSFAS-related queries and private sponsor queries. However, the office only communicates with students directly and does not disclose personal financial matters to third parties."
+      ]
+    },
+    {
+      "tag": "Finance",
+      "patterns":[
+          "What financial aid or scholarship opportunities are available for students?",
+          "How do I apply for scholarships or financial assistance?",
+          "When will I be notified about the status of my scholarship application?"
+      ],
+      "responses": [
+          "The University of Zululand offers various financial aid programs, scholarships, grants, and bursaries based on academic performance, financial need, or specific criteria. You can learn about the available opportunities and application processes through the university's financial aid office or website.",
+          "To apply for scholarships or financial assistance at UNIZULU, Visit the official UNIZULU website and navigate to the Financial Aid or Scholarships section.", 
+          "The timeline for notifications regarding your scholarship application status may vary depending on the scholarship provider or financial aid program"
+      ]
+    },
+    {
+        "tag": "thanks",
+        "patterns": [
+            "Thanks", 
+            "Thank you",
+             "That's helpful", 
+             "Thank's a lot!"
+            ],
+        "responses": [
+            "Happy to help!", 
+            "Any time!", 
+            "My pleasure"
+        ]
+      }
+]
+}

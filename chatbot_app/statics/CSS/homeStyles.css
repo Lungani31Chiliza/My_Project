@@ -1,0 +1,269 @@
+.nav{
+    position: relative;
+    z-index: 1;
+    height:95px;
+    
+
+}
+
+
+.title{
+    margin-top: 10px;
+    margin-left: 450px;
+    font-weight: 900;
+    color:white;
+    position: absolute;
+  
+  }
+
+.logo{
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    position: absolute;
+    
+}
+
+
+
+.menu-btn{
+    margin-left: 10px;
+}
+
+
+.robot{
+    height: 140px;
+    width: 140px;
+    margin-top: 100px;
+    margin-left: 270px;
+    border-radius: 5px;
+}
+
+.container{
+    margin-top: 50px;
+    background-color:white;
+    height:120px;
+    width: 130px;
+    position:relative;
+    -moz-border-radius:12px;
+    -webkit-border-radius: 12px;
+    -border-radius:12px;
+    border-radius: 12px;
+    transform: scale(0);
+    animation: scaleIn 1s ease-in-out forwards;
+}
+
+@keyframes scaleIn {
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+.container:before{
+    content: '';
+    position:absolute;
+    right:100%;
+    top:36%;
+    width:0;
+    height:0;
+    border-top: 13px solid transparent;
+    border-right: 36px solid white;
+    border-bottom: 13px solid transparent;
+}
+
+
+
+.text{
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: "Comic Sans MS",cursive, sans-serif;
+
+    transform: scale(0);
+    animation: scaleIn 1s ease-in-out forwards;
+}
+
+@keyframes scaleIn {
+    to {
+        transform: scale(1);
+    }
+}
+
+
+
+.link-button{
+    margin-top: 50px;
+    margin-left: 600px;
+    
+}
+
+.footer{
+    margin-top:90px;
+    margin-bottom: 25px;
+    border: 3px solid white;
+    position: fixed;
+    height: 80px;
+    position: relative;
+}
+
+p{
+    font-weight: 100;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: large;
+}
+
+.first-section{
+padding-bottom: 90px;
+}
+
+.side-bar{
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+}
+ul{
+    list-style-type: none;
+    justify-content: baseline;
+}
+.side-btn{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+  }
+
+
+  @media (max-width:520px){
+    .title{
+        margin-top: 10px;
+        margin-left: 160px;
+        font-weight: 800;
+        font-size: x-large;
+        position: absolute;
+      }
+   
+      .logo{
+        height: 45px;
+        width: 45px;
+        border-radius: 10px;
+        margin-left: 80px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: absolute; 
+    }
+
+    .robot{
+        height: 90px;
+        width: 90px;
+        margin-top: 100px;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+
+    
+.container{
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color:white;
+    height:100px;
+    width: 20px;;
+    position:static;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    -border-radius:12px;
+    border-radius:12px;
+
+}
+
+.link-button{
+    margin-top: 50px;
+    margin-left: 150px;
+    
+}
+
+.footer{
+    margin-top:90px;
+    margin-bottom: 15px;
+    border: 3px solid white;
+    position: fixed;
+    height: 150px;
+    position: relative;
+}
+
+.text{
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size:x-large;
+    font-family: "Comic Sans MS",cursive, sans-serif;
+}
+
+}
+
+@media (min-width:573px) And (max-width:751px){
+    .title{
+        margin-left: 180px;
+        font-weight: 600;
+        
+    }
+    .logo{
+        margin-left: 70px;
+        height:60px;
+        width: 60px;
+    }
+
+    .robot{
+        height: 100px;
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    .container{
+        height: 140px;
+    }
+    .link-button{
+        margin-left: 250px;
+    }
+    .text{
+        font-size:31px;
+        padding-top: 18px;
+        padding-left: 20px;
+    }
+}
+
+@media (min-width:760px) And (max-width:1030px){
+    .title{
+        margin-left: 300px;
+    }
+    .logo{
+        height:70px;
+        width: 70px;
+    }
+
+    .robot{
+        height: 120px;
+        width: 120px;
+        margin-left: 100px;
+    }
+
+    .container{
+        
+        height: 140px;
+    }
+    .link-button{
+        margin-left: 400px;
+    }
+}
